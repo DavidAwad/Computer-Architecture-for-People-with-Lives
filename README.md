@@ -12,9 +12,9 @@ Ideally this could serve as a convenient reference for someone taking courses re
 
 I hope to write this book in my spare time over the coming summer to enhance my own understanding and make these low level topics of computer science more accessible to the average monkey.
 
-
+## This book is a work in progress! Most of it hasn't been written yet! Feel free to contribute or leave feedback!  
 
 #### *disclaimer*  
 
-##### I don't have a PhD in computer science, this book is simply meant to serve as a formal compilation of my notes from taking these three low level courses and provide a convenient series of code examples. As it can be kind of annoying to not be able to find simple examples of how some things work. 
+##### I don't have a PhD in computer science, this book is simply meant to serve as a formal compilation of my notes from taking these three low level courses and provide a convenient series of code examples. As it can be kind of  annoying to not be able to find simple examples of how some things work. 
 
