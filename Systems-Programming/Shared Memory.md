@@ -33,5 +33,5 @@ Here's a small example.
 ```
 
 
-*You can see a full example inside of [shmget.c](). 
+* You can see a full example inside of [shmget.c](https://github.com/DavidAwad/Computer-Architecture-for-People-with-Lives/blob/master/Systems-Programming/shmget.c). 
 
