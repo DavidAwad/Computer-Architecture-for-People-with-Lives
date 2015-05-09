@@ -12,14 +12,13 @@ You use the key and the operating system gives you a pointer to the beginning of
 
 Here's a small example. 
 ```C
-	key_t		key;
-	int		shmid;
+	key_t  key;
+	int  shmid;
 	char *p;
-	int	size = 4096;
-	char message[] = "Look at the guy next to you and wake him up.\n";
+	int size = 4096;
 	
-	// create a key
-	key = ftok( "database.txt", 42 );
+	// create a key, ftok just does some hashing to create a secure string. 
+	key = ftok( "example.txt", 42 ); 
 	// shmget gives us our id
 	shmid = shmget( key, size, 0666 | IPC_CREAT | IPC_EXCL ) ;
 	// Successful creation of shared memory segment.  Segment is filled with zeros.
@@ -32,6 +31,6 @@ Here's a small example.
 	shmdt(p);
 ```
 
-
+* man page for [ftok](http://www.lehman.cuny.edu/cgi-bin/man-cgi?ftok+3)
 * You can see a full example inside of [shmget.c](https://github.com/DavidAwad/Computer-Architecture-for-People-with-Lives/blob/master/Systems-Programming/shmget.c). 
 
