@@ -6,6 +6,7 @@ So this is the beginning chapter where ideally we'll be able to get a grasp for 
 This segment ideally would be broken into a couple of sections. 
 
 | Topic | Summary |  
+|:-------------: | :-----:|
 
 | Modern Machines  | Computer Design, from the ground up. |
 
