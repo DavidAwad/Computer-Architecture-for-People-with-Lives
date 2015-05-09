@@ -6,7 +6,6 @@ Ideally this could serve as a convenient reference for someone taking courses re
 
 |Topics          | Summary|
 |:-------------: | :-----:|
-
 | [Computer Architecture](https://github.com/DavidAwad/Computer-Architecture-for-People-with-Lives/blob/master/Computer-Architecture/Overview.md) | The basics of Low Level programming, and the design of a computer | 
 | [Systems Programming](https://github.com/DavidAwad/Computer-Architecture-for-People-with-Lives/blob/master/Systems-Programming/Overview.md)  | Get used to writing complex C programs that can use the processor to it's limits |
 | [Operating Systems](https://github.com/DavidAwad/Computer-Architecture-for-People-with-Lives/blob/master/Operating-Systems/Overview.md)  | Read about how the Kernel uses hardware to isolate processes and manage filesystems in virtual memory! |
