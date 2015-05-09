@@ -1,0 +1,27 @@
+# Shared Memory
+
+So we know about how to use means of synchronization for our processes to make sure nobody steps on anyone else. 
+
+This is convenient for things like multithreading, but what about if we wanted to share a data structure between processes? 
+
+The way you can do this is by using a construct called **shared memory**. 
+
+Here's how it works at a high level; you reserve a block of memory that essentially is not associated with a process, but with a unique *key*. 
+
+You use the key and the operating system gives you a pointer to the beginning of that block of memory. 
+
+Here's a small example. 
+```C
+
+
+```
+
+
+
+
+
+
+
+
+*You can see a more detailed implementation inside of [shmget.c](). 
+
