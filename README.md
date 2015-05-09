@@ -1,6 +1,6 @@
-# Computer-Architecture-for-People-with-Lives
-This is a book I plan on writing comprising the foundations of Computer Architecture, Systems Programming, and Operating Systems.
+# Computer Architecture For People With Lives
 
+This is a small booklet comprising the basics of Computer Architecture, Systems Programming, and Operating Systems.
 
 ####Exactly That. 
 
