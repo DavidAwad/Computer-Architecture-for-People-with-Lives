@@ -13,4 +13,5 @@ So now ideally we've got a good understanding of C, the processor, and how the m
 | Shared Memory | How to share memory between processes |
 
 
-none of these are written yet. . . 
+The entirety of my learning the content of these topics and some of the source code is thanks to [Rutgers Professor Brian Russel](http://paul.rutgers.edu/~morbius/). 
+
