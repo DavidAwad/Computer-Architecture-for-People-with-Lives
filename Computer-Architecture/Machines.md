@@ -2,7 +2,6 @@
 
 So this is our first chapter, an introduction to how a typical machine works. 
 
-
 Let's start with the literal. 
 
 
@@ -27,5 +26,18 @@ The CPU, often just called the processor, is the component that contains the mic
 
 ## The Hard Drive 
 
-Th
+The hard drive is also somewhat straightforward, 
+
+You can think of it as a huge, huge, array of cylinders that contain 1's or 0's. Binary values that, if you have enough of them, resemble data structures to the operating system, and thats exactly what it uses them for. 
+
+If you want to get a real engineering level understanding of how it works, you can read more about it [here](http://www.explainthatstuff.com/harddrive.html). 
+
+
+## RAM
+
+Even the fastest processor needs a buffer to store information while it's being processed. The RAM is to the CPU as a countertop is to a cook: It serves as the place where the ingredients and tools you're working with wait until you need to pick up and use them. 
+
+For example, reads from disk might take 600 milliseconds where reads from memory might cost 200 nanoseconds. The faster you can read information from disk, the faster every process on the operating system will potentially be able to be. 
+Building RAM thats as fast as possible makes for a very interesting engineering problem that has nothing to do with the goal of this book :D 
+
 
